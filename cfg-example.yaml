@@ -1,0 +1,10 @@
+chatGpt:
+  authToken: xxx # 填open ai平台的token
+server:
+  addr: ":8080" # 回调地址
+  path: /event # 回调事件请求路径
+lark:
+  appId: xxx # 飞书 appId
+  appSecret: xxx # 飞书 appSecret
+  verificationToken:
+  eventEncryptKey: #加密key,默认为空
